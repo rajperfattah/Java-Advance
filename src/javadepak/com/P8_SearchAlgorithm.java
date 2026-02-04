@@ -1,6 +1,8 @@
 package javadepak.com;
 
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class P8_SearchAlgorithm {
     public static void main(String[] args) {
@@ -123,6 +125,7 @@ public class P8_SearchAlgorithm {
 
          */
 
+        /*
         // largest element at nth position.
 
         int[]a={3,5,7,3,6,8,9,0,88,6,33,6,755};
@@ -141,6 +144,56 @@ public class P8_SearchAlgorithm {
                 System.out.println(a[i]);
                 break;
             }
+        }
+
+         */
+
+        /*
+        // finding duplicate values in element.
+// using set interface.
+        int []a={1,1,2,3,4,6,3,55,67,4,5,6,4};
+        Set<Integer> s=new HashSet<>();
+        for (int e:a){
+            if (!s.add(e)){
+                System.out.println(e);
+            }
+        }
+
+
+         */
+
+        /*
+        // finding value pccur only once and  values occurs twice.
+            int []a={1,1,2,2,3,4,4,5,6,6};
+             int res=a[0];
+
+        for (int i=1;i<a.length;i++){
+                res=res^a[i];
+            }
+        System.out.println(res);
+
+         */
+
+        // merging two arrays in one array.
+
+        int[]a={10,20,30};
+        int[]b={40,50,60,70,80};
+
+        int a1=a.length;
+        int b1=b.length;
+
+        int c1=a1+b1;
+        int []c=new int[c1];
+
+        for (int i=0;i<a.length;i++){
+            c[i]=a[i];
+        }
+        for (int i=0;i<b.length;i++){
+            c[a.length+i]=b[i];
+        }
+
+        for (int e:c){
+            System.out.println(e);
         }
 
 

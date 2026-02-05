@@ -63,7 +63,7 @@ public class P2_Variables
          */
 
         /* static variale:A static variable is a variable that belongs to the class, not to individual objects.
-        Belong to class, not object
+  Belong to class, not object
 ✔ Single memory allocation
 ✔ Can be accessed using class name
 ✔ Created when class is loaded

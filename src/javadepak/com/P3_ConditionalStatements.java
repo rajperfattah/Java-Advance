@@ -62,7 +62,7 @@ public class P3_ConditionalStatements
          */
 
         /*
-        // write a program to print pdd numbers uptp n numbers.
+        // write a program to print add numbers upto n numbers.
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number to print odd numbers upto that");
         int n=sc.nextInt();

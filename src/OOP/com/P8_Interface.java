@@ -22,11 +22,11 @@ interface myinterface{
     void show();
 
 //    default void run(){
-//        System.out.println("Asslam o alaikum");
+//        System.out.println("Asslam o alaikum");// defauult method is allowed in interface after java 8 .
 //    }
 
 //    static void eat(){
-//        System.out.println("Eating------");
+//        System.out.println("Eating------"); // static method is allowed in java after java 8
 //    }
 }
 interface myinterface2 {

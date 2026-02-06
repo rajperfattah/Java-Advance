@@ -2,7 +2,7 @@ package OOP.com;
 
 public class P11_SuperKeyWord {
     public static void main(String[] args) {
-
+//super keyword:Parent class ki cheezon ko access karne ke liye super use hota hai.
 
         B b=new B();
         b.show(30);// will print 30
